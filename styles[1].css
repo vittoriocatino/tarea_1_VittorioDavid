@@ -1,0 +1,38 @@
+/* Estilos para la página con fondo rojo y elementos centrados */
+body {
+    font-family: Arial, sans-serif;
+    background-color: red;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Estilos para la lista ordenada centrada */
+ol {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    line-height: 1.6;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+}
